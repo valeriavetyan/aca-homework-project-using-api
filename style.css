@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff, rgb(187, 230, 255));
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+  
+.img {
+    height: 100%;
+    width: 100%;
+}
+  
+.card {
+    max-width: 600px;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 16px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgb(73, 73, 73);
+}
+  
+.btn {
+    font-family: Verdana,  Tahoma, sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(117, 117, 117);
+}
